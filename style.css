@@ -55,7 +55,7 @@ a:hover {
   color: red;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(243, 6, 6);
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
@@ -167,6 +167,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  
 }
 
 .section__pic-container {
@@ -179,6 +180,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  
 }
 
 .section__text p {
@@ -186,7 +188,7 @@ section {
 }
 
 .section__text__p1 {
-  text-align: center;
+  text-align: left;
 }
 
 .section__text__p2 {
@@ -195,8 +197,11 @@ section {
 }
 
 .title {
+  display: flex;
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
+  color: rgb(207, 89, 89);
+  
 }
 
 #socials-container {
@@ -241,7 +246,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(207, 89, 89);
   color: white;
 }
 
@@ -430,3 +435,6 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/*extra background stuff -- to come later i guess*/
